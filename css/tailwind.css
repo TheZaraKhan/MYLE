@@ -2,258 +2,231 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI-BoldItalic.eot');
-    src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
-        url('fonts/SegoeUI-BoldItalic.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
-        url('fonts/SegoeUI-BoldItalic.woff') format('woff'),
-        url('fonts/SegoeUI-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI-BoldItalic.eot");
+  src: local("Segoe UI Bold Italic"), local("SegoeUI-BoldItalic"),
+    url("fonts/SegoeUI-BoldItalic.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI-BoldItalic.woff2") format("woff2"),
+    url("fonts/SegoeUI-BoldItalic.woff") format("woff"),
+    url("fonts/SegoeUI-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI.eot');
-    src: local('Segoe UI'), local('SegoeUI'),
-        url('fonts/SegoeUI.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI.woff2') format('woff2'),
-        url('fonts/SegoeUI.woff') format('woff'),
-        url('fonts/SegoeUI.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI.eot");
+  src: local("Segoe UI"), local("SegoeUI"),
+    url("fonts/SegoeUI.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI.woff2") format("woff2"),
+    url("fonts/SegoeUI.woff") format("woff"),
+    url("fonts/SegoeUI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI-SemiBold.eot');
-    src: local('Segoe UI Semibold'), local('SegoeUI-SemiBold'),
-        url('fonts/SegoeUI-SemiBold.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI-SemiBold.woff2') format('woff2'),
-        url('fonts/SegoeUI-SemiBold.woff') format('woff'),
-        url('fonts/SegoeUI-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI-SemiBold.eot");
+  src: local("Segoe UI Semibold"), local("SegoeUI-SemiBold"),
+    url("fonts/SegoeUI-SemiBold.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI-SemiBold.woff2") format("woff2"),
+    url("fonts/SegoeUI-SemiBold.woff") format("woff"),
+    url("fonts/SegoeUI-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI-Light.eot');
-    src: local('Segoe UI Light'), local('SegoeUI-Light'),
-        url('fonts/SegoeUI-Light.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI-Light.woff2') format('woff2'),
-        url('fonts/SegoeUI-Light.woff') format('woff'),
-        url('fonts/SegoeUI-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI-Light.eot");
+  src: local("Segoe UI Light"), local("SegoeUI-Light"),
+    url("fonts/SegoeUI-Light.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI-Light.woff2") format("woff2"),
+    url("fonts/SegoeUI-Light.woff") format("woff"),
+    url("fonts/SegoeUI-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI-Bold.eot');
-    src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
-        url('fonts/SegoeUI-Bold.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI-Bold.woff2') format('woff2'),
-        url('fonts/SegoeUI-Bold.woff') format('woff'),
-        url('fonts/SegoeUI-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI-Bold.eot");
+  src: local("Segoe UI Bold"), local("SegoeUI-Bold"),
+    url("fonts/SegoeUI-Bold.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI-Bold.woff2") format("woff2"),
+    url("fonts/SegoeUI-Bold.woff") format("woff"),
+    url("fonts/SegoeUI-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Segoe UI';
-    src: url('fonts/SegoeUI-Italic.eot');
-    src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
-        url('fonts/SegoeUI-Italic.eot') format('embedded-opentype'),
-        url('fonts/SegoeUI-Italic.woff2') format('woff2'),
-        url('fonts/SegoeUI-Italic.woff') format('woff'),
-        url('fonts/SegoeUI-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Segoe UI";
+  src: url("fonts/SegoeUI-Italic.eot");
+  src: local("Segoe UI Italic"), local("SegoeUI-Italic"),
+    url("fonts/SegoeUI-Italic.eot") format("embedded-opentype"),
+    url("fonts/SegoeUI-Italic.woff2") format("woff2"),
+    url("fonts/SegoeUI-Italic.woff") format("woff"),
+    url("fonts/SegoeUI-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
-  
-.light-link{
-      @apply text-green-400 text-sm  font-extralight  cursor-pointer   hover:text-green-900 transition ease-in-out duration-500 ;
-  }
+.light-link {
+  @apply text-green-400 text-sm  font-extralight  cursor-pointer   hover:text-green-900 transition ease-in-out duration-500;
+}
 
-  
 /* ----------CSS for Div in signup interested categories section----------- */
 .switch {
-	position: relative;
+  position: relative;
 }
 
 .div_a {
-	position: relative;
-	opacity: 1;
-	transition:600ms;
+  position: relative;
+  opacity: 1;
+  transition: 600ms;
 }
 
 .div_hover {
-	position: absolute;
-	opacity: 0;
-  top:0;
-
+  position: absolute;
+  opacity: 0;
+  top: 0;
 }
 
 .switch:hover .div_hover {
-	opacity: 1; 
+  opacity: 1;
   transition-duration: 300ms;
   transition-timing-function: linear;
-  z-index:11;
-
-}
- 
-.bg-grad{
-  background: linear-gradient(215.09deg, #104233 0%, #B8D245 100%);
-
-}
-.bg-grad-green{
-  opacity: 0.75; 
-  background: linear-gradient(180deg, #B3CF38 0%, #104233 100%);
-
+  z-index: 11;
 }
 
-
+.bg-grad {
+  background: linear-gradient(215.09deg, #104233 0%, #b8d245 100%);
+}
+.bg-grad-green {
+  opacity: 0.75;
+  background: linear-gradient(180deg, #b3cf38 0%, #104233 100%);
+}
 
 /* -------------------- nav links  ---------------------- */
 
- 
 .active:after {
-
-content: " ";
-position: absolute;
-bottom: -8px;
-display: block;
-width: 100%;
-border-bottom: 5px solid #B3CF38;
-border-radius: 20px;
+  content: " ";
+  position: absolute;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  border-bottom: 5px solid #b3cf38;
+  border-radius: 20px;
 }
 
-.active img{
-  filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg) brightness(100%) contrast(87%);
+.active img {
+  filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg)
+    brightness(100%) contrast(87%);
 }
-.active p{
-  color:#B3CF38;
-}
-
-.active span{
-  color:#B3CF38;
+.active p {
+  color: #b3cf38;
 }
 
- 
+.active span {
+  color: #b3cf38;
+}
+
 .non-active:hover:after {
-content: " ";
-position: absolute;
-bottom: -8px;
-display: block;
-width: 100%;
-border-bottom: 5px solid #B3CF38;
-border-radius: 20px;
+  content: " ";
+  position: absolute;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  border-bottom: 5px solid #b3cf38;
+  border-radius: 20px;
 }
 
 .non-active:hover img {
-  filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg) brightness(100%) contrast(87%);
-  color: #B3CF38;
+  filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg)
+    brightness(100%) contrast(87%);
+  color: #b3cf38;
+}
 
-} 
- 
+.non-active:hover p {
+  color: #b3cf38;
+}
 
+.non-active:hover span {
+  color: #b3cf38;
+}
 
-.non-active:hover p{ 
-  color: #B3CF38;
-
-} 
-
-.non-active:hover span{ 
-  color: #B3CF38;
-
-} 
-
-img.drop:after{
-  content: url('../assets/images/ic_NavDropdown.svg');
-    width: 8px;
-    margin-left: 5px;
- }
-
-
+img.drop:after {
+  content: url("../assets/images/ic_NavDropdown.svg");
+  width: 8px;
+  margin-left: 5px;
+}
 
 /* ------- sub nav links -------- */
 
-.selected p{
-  color: #B3CF38;
+.selected p {
+  color: #b3cf38;
 }
 
-.non-selected:hover p{ 
-  color: #B3CF38;
-
-} 
-
-
-.shadow-box{
-  box-shadow: 0 0 7px 0 rgba(0,0,0,0.2);     
-  overflow:hidden;
+.non-selected:hover p {
+  color: #b3cf38;
 }
 
+.shadow-box {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
 
 /* ---------------------------------------- */
-  
-.action-hover:hover{
-  filter: invert(60%) sepia(27%) saturate(1047%) hue-rotate(111deg) brightness(100%) contrast(89%);
-} 
- 
- 
-.catego  {
-      @apply w-28 h-24 2xs:w-36 2xs:h-32 sm:w-40 sm:h-36 mx-auto;
-   }
 
+.action-hover:hover {
+  filter: invert(60%) sepia(27%) saturate(1047%) hue-rotate(111deg)
+    brightness(100%) contrast(89%);
+}
+
+.catego {
+  @apply w-28 h-24 2xs:w-36 2xs:h-32 sm:w-40 sm:h-36 mx-auto;
+}
 
 /* --------Css for toogle button ---------- */
 
-.dot-shadow{
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+.dot-shadow {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
-.dot-line{
-  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.5);
-
+.dot-line {
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
 input:checked ~ .dot-line {
-  background-color: #28816D;
-  
+  background-color: #28816d;
 }
-input:checked ~ .dot{
-transform: translateX(100%);
+input:checked ~ .dot {
+  transform: translateX(100%);
 }
- 
+
 input:checked ~ .day {
-  opacity:1;
-  
+  opacity: 1;
 }
-
- 
-
 
 /* ---------------------- event detail page ------------------------ */
 
- .green-filter{
+.green-filter {
+  filter: invert(60%) sepia(27%) saturate(1047%) hue-rotate(111deg)
+    brightness(100%) contrast(89%);
+}
 
-  filter: invert(60%) sepia(27%) saturate(1047%) hue-rotate(111deg) brightness(100%) contrast(89%);
- }
- 
- 
 /******  Star Rating Widget *****/
 
-.rating { 
+.rating {
   border: none;
   float: left;
 }
 
-.rating > input { display: none; } 
-.rating > label:before { 
+.rating > input {
+  display: none;
+}
+.rating > label:before {
   margin: 5px;
   font-size: 2em;
   font-family: FontAwesome;
@@ -261,111 +234,106 @@ input:checked ~ .day {
   content: "\f005";
 }
 
-.rating > label { 
- color: #ddd; 
- float: right; 
+.rating > label {
+  color: #ddd;
+  float: right;
 }
 
 .rating > input:checked ~ label, /* show gold star when clicked */
 .rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  cursor:pointer; } /* hover previous stars in list */
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+  cursor: pointer;
+} /* hover previous stars in list */
 
 .rating > input:checked + label:hover, /* hover current star when changing rating */
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFD700[];   cursor:pointer;} 
-
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFD700[];
+  cursor: pointer;
+}
 
 /* -------------------------------- */
 
 .tab-content {
-@apply transition-all ease-linear duration-500 overflow-hidden max-h-0;
-} 
+  @apply transition-all ease-linear duration-500 overflow-hidden max-h-0;
+}
 
-input:checked + .tab-label{
-  @apply  bg-gray-100;
+input:checked + .tab-label {
+  @apply bg-gray-100;
 }
 
 input:checked + .tab-label .tab-arrow {
- @apply rotate-180 transform transition-all ease-linear duration-500; 
-  
+  @apply rotate-180 transform transition-all ease-linear duration-500;
 }
 
 input:checked ~ .tab-content {
- @apply  border-t border-lime overflow-auto transition-max-height ease-linear duration-500 max-h-screen;
+  @apply border-t border-lime overflow-auto transition-max-height ease-linear duration-500 max-h-screen;
 }
-
-
- 
 
 input:checked + .comment-section .tab-arrow {
- @apply rotate-180 transform transition-all ease-linear duration-500; 
-  
+  @apply rotate-180 transform transition-all ease-linear duration-500;
 }
 
 input:checked ~ .tab-content {
- @apply  border-t border-lime overflow-auto transition-all ease-linear duration-500 max-h-screen;
+  @apply border-t border-lime overflow-auto transition-all ease-linear duration-500 max-h-screen;
 }
-
 
 /* --------- tooltip ------------- */
 .rotate-45 {
-        --transform-rotate: 45deg;
-        transform: rotate(45deg);
-    }
+  --transform-rotate: 45deg;
+  transform: rotate(45deg);
+}
 
-    .group:hover .group-hover\:flex {
-        display: flex;
-    }
+.group:hover .group-hover\:flex {
+  display: flex;
+}
 
 /* Icon button */
-.btnIcon:hover img{
- filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(200%) contrast(100%);
-@apply transition-all ease-linear duration-500;
-    }
+.btnIcon:hover img {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg)
+    brightness(200%) contrast(100%);
+  @apply transition-all ease-linear duration-500;
+}
 
-.filter-white{
-      filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(200%) contrast(100%);
-    }
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg)
+    brightness(200%) contrast(100%);
+}
 
+.filter-lime {
+  filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg)
+    brightness(100%) contrast(87%);
+}
 
- .filter-lime{
-filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg) brightness(100%) contrast(87%);
+div.floating-element + div + img {
+  @apply hover:scale-110 transform cursor-pointer transition ease-in-out duration-500;
+}
 
- }
+#my-box {
+  display: flex;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
 
-
- div.floating-element + div + img {
-   @apply hover:scale-110 transform cursor-pointer transition ease-in-out duration-500;
- }
-
-  
-
- #my-box{
-            display: flex;
-            height: 0;
-            padding-bottom: 100%; 
-            width: 100%;
-          }
-
-.my-box{
-            display: flex;
-            height: 0;
-            padding-bottom: 100%; 
-            width: 100%;
-          }
+.my-box {
+  display: flex;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
 
 /*header div box in event details page */
 
 .outer-div {
-    height: 60vh;
-  }
-  .inner-div {
-    height: 45vh;
-    
-  }
-  
-  
+  height: 60vh;
+}
+.inner-div {
+  height: 45vh;
+}
+
 @media screen and (min-width: 480px) {
   .outer-div {
     height: 65vh;
@@ -385,7 +353,7 @@ filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg) brightness(100%)
 }
 
 @media screen and (min-width: 850px) {
-   .outer-div {
+  .outer-div {
     height: 40vh;
   }
   .inner-div {
@@ -394,10 +362,101 @@ filter: invert(0%) sepia(12%) saturate(2427%) hue-rotate(19deg) brightness(100%)
 }
 
 @media screen and (min-width: 1080px) {
-   .outer-div {
+  .outer-div {
     height: 65vh;
   }
   .inner-div {
     height: 50vh;
+  }
+}
+
+/* select box new */
+
+* {
+  outline: 0;
+}
+
+/*Styling Selectbox*/
+.dropdown {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  transition: all 0.5s ease;
+  position: relative;
+
+  text-align: left;
+}
+
+.dropdown .select {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown .select > i {
+  font-size: 16px;
+  color: rgba(148, 147, 147, 0.671);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  float: right;
+  line-height: 1.8;
+}
+
+.dropdown:hover {
+  box-shadow: none;
+}
+
+.dropdown:current {
+  background-color: white;
+}
+
+.dropdown.current:hover,
+.dropdown.current {
+  background-color: white;
+}
+
+.dropdown.current .select > i {
+  transform: none;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+
+  right: 0;
+  margin-top: 1px;
+
+  border-radius: 5px;
+
+  display: none;
+  max-height: 144px;
+  overflow-y: auto;
+  z-index: 99;
+}
+
+.dropdown .dropdown-menu li {
+  padding: 10px;
+  padding-left: 21px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown .dropdown-menu li:current {
+  background-color: #e2e2e2;
+}
+
+@media screen and (max-width: 700px) {
+  .dropdown .select {
+    padding: 4px;
   }
 }
