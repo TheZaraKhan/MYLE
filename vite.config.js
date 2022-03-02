@@ -35,6 +35,7 @@ module.exports = {
         userprofile: resolve(__dirname, "pages/userprofile/index.html"),
         reviews: resolve(__dirname, "pages/reviews/index.html"),
         checkout: resolve(__dirname, "pages/checkout/index.html"),
+        checkout2: resolve(__dirname, "pages/checkout2/index.html"),
         success: resolve(__dirname, "pages/success/index.html"),
       },
     },

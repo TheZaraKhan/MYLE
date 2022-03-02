@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ["./pages/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -39,6 +39,7 @@ module.exports = {
         "50vh": "50vh",
         "65vh": "65vh",
         "40vh": "40vh",
+        "90vh": "90vh",
       },
       zIndex: {
         "-1": "-1",
