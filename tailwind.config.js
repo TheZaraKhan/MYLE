@@ -89,6 +89,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      opacity: ["disabled"],
       zIndex: ["hover", "active"],
       height: ["responsive", "hover", "focus"],
     },
