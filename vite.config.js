@@ -39,7 +39,7 @@ module.exports = {
         success: resolve(__dirname, "pages/success/index.html"),
         mytickets: resolve(__dirname, "pages/mytickets/index.html"),
         tickets: resolve(__dirname, "pages/tickets/index.html"),
-        // tickets: resolve(__dirname, "pages/tickets/index.html"),
+        addtickets: resolve(__dirname, "pages/addtickets/index.html"),
       },
     },
   },
