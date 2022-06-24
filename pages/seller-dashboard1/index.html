@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Dashboard</title>
+   <link rel="stylesheet" href="/css/tailwind.css" />
+</head>
+
+<body>
+   <div class="w-full min-h-screen ">
+      <div class="w-full top-0 fixed bg-dashboard bg-cover flex items-center ">
+         <div class="w-3/4 flex items-center py-5 mx-auto">
+            <div class="flex-grow"><img class="h-9 sm:mx-2 " src="/assets/images/logo-nav.png" alt="" /></div>
+
+            <div id="user-menu" class=" cursor-pointer flex-none">
+
+               <div class=" rounded-full flex px-5 py-2 items-center space-x-3 bg-green-900">
+
+
+                  <div class=" overflow-hidden rounded-full w-6 h-6  "><img class="w-auto"
+                        src="/assets/images/user.jpeg" alt="" /> </div>
+                  <p class="text-white  text-xs cursor-pointer">John Doe</p>
+                  <img src="/assets/images/ic_NavDropdown.svg" class="" alt="" />
+               </div>
+
+
+
+            </div>
+
+         </div>
+
+      </div>
+
+      <div class="lg:w-3/4 mx-auto   mt-32">
+         <p class="text-5xl text-gray-900">Events</p>
+
+         <table class="w-full mt-10 overflow-x-scroll table-auto" style="min-width: 600px;">
+            <thead class="bg-mute text-sm text-gray-800 h-10  text-left ">
+               <tr>
+                  <th class="pl-3">Event</th>
+                  <th></th>
+                  <th>Sold</th>
+                  <th>Gross</th>
+                  <th>Status</th>
+                  <th></th>
+               </tr>
+            </thead>
+            <tbody class="font-light border-spacing-4   font-gray-800 text-sm">
+               <tr class=" border-b  ">
+                  <td class="pl-3 py-3">
+                     <p class=" font-normal">Nov, 12 2021</p>
+                     <p>5:00 - 9:00 PM</p>
+                  </td>
+                  <td class="flex space-x-4 items-center py-4">
+                     <div class="flex-none  rounded-xl overflow-hidden h-16 w-16 ">
+                        <img src="/assets/images/event-header.jpeg" class="h-full w-full object-cover" alt="">
+                     </div>
+                     <div class=" flex-grow">
+                        <p class=" py-1 font-normal">Famous Names In Barbecue</p>
+                        <p class="py-1 ">$10.00 - $100.00</p>
+                     </div>
+                  </td>
+                  <td>0 / 200</td>
+                  <td>$300.00</td>
+                  <td>Event Ended</td>
+                  <td>
+                     <img src="/assets/images/more.svg" class=" h-4 cursor-pointer m-1" alt="">
+                  </td>
+               </tr>
+               <tr class=" border-b  ">
+                  <td class="pl-3 py-3">
+                     <p class=" font-normal">Nov, 12 2021</p>
+                     <p>5:00 - 9:00 PM</p>
+                  </td>
+                  <td class="flex space-x-4 items-center py-4">
+                     <div class="flex-none  rounded-xl overflow-hidden h-16 w-16 ">
+                        <img src="/assets/images/event-header.jpeg" class="h-full w-full object-cover" alt="">
+                     </div>
+                     <div class=" flex-grow">
+                        <p class=" py-1 font-normal">Famous Names In Barbecue</p>
+                        <p class="py-1 ">$10.00 - $100.00</p>
+                     </div>
+                  </td>
+                  <td>0 / 200</td>
+                  <td>$300.00</td>
+                  <td>Event Ended</td>
+                  <td>
+                     <img src="/assets/images/more.svg" class=" h-4 cursor-pointer m-1" alt="">
+                  </td>
+               </tr>
+               <tr class=" border-b  ">
+                  <td class="pl-3 py-3">
+                     <p class=" font-normal">Nov, 12 2021</p>
+                     <p>5:00 - 9:00 PM</p>
+                  </td>
+                  <td class="flex space-x-4 items-center py-4">
+                     <div class="flex-none  rounded-xl overflow-hidden h-16 w-16 ">
+                        <img src="/assets/images/event-header.jpeg" class="h-full w-full object-cover" alt="">
+                     </div>
+                     <div class=" flex-grow">
+                        <p class=" py-1 font-normal">Famous Names In Barbecue</p>
+                        <p class="py-1 ">$10.00 - $100.00</p>
+                     </div>
+                  </td>
+                  <td>0 / 200</td>
+                  <td>$300.00</td>
+                  <td>Event Ended</td>
+                  <td>
+                     <img src="/assets/images/more.svg" class=" h-4 cursor-pointer m-1" alt="">
+                  </td>
+               </tr>
+
+            </tbody>
+         </table>
+
+         <div class=" flex items-center my-6 px-2 w-full">
+            <div class="flex-none">
+               <p class=" text-sm text-gray-800 font-light">
+                  Showing page 1 of 2
+               </p>
+            </div>
+            <div class="flex-grow text-center">
+               Pagination
+            </div>
+            <div class="flex-none">
+               <div class="flex space-x-3 items-center">
+                  <p class=" text-sm text-gray-800 font-light">
+                     Page no:
+                  </p>
+                  <div class=" w-28 h-8 border"></div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+
+   </div>
+
+   <div class="lg:w-3/4 mx-auto   mt-24 flex items-center">
+      <p class="flex-grow mt-10 text-sm font-light  mb-4 text-gray-600">Copyrights © 2021 All rights
+         reserved by
+         MYLE
+      </p>
+      <div class=" flex-none">socials</div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>

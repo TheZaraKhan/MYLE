@@ -40,6 +40,19 @@ module.exports = {
         mytickets: resolve(__dirname, "pages/mytickets/index.html"),
         tickets: resolve(__dirname, "pages/tickets/index.html"),
         addtickets: resolve(__dirname, "pages/addtickets/index.html"),
+        sellerlogin: resolve(__dirname, "pages/seller-login/index.html"),
+        sellerdashboard1: resolve(
+          __dirname,
+          "pages/seller-dashboard1/index.html"
+        ),
+        sellerdashboard2: resolve(
+          __dirname,
+          "pages/seller-dashboard2/index.html"
+        ),
+        sellerdashboard3: resolve(
+          __dirname,
+          "pages/seller-dashboard3/index.html"
+        ),
       },
     },
   },

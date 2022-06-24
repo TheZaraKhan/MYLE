@@ -25,6 +25,7 @@ module.exports = {
         login: "url('/assets/images/bg-login.jpg')",
         signup: "url('/assets/images/bg-signup.jpg')",
         background: "url('/assets/images/background.png')",
+        dashboard: "url('/assets/images/dashboard.jpeg')",
       }),
 
       maxWidth: {
@@ -49,6 +50,7 @@ module.exports = {
           1000: "#0C3020",
           900: "#145143",
           800: "#28816D",
+          500: "#02af0f",
           400: "#209A75",
           50: "#E9F5F2",
         },
