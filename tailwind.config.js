@@ -1,5 +1,5 @@
 module.exports = {
-  darkMode: false, // or 'media' or 'class'
+  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
   theme: {
     fontFamily: {
       sans: ['"Segoe UI"', "sans-serif"],
