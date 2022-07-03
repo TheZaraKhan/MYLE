@@ -7,9 +7,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Dashboard</title>
    
-  <script type="module" crossorigin src="/assets/sellerdashboard1.974d4ee3.js"></script>
-    <link rel="modulepreload" href="/assets/tailwind.45eaa7f8.js">
-    <link rel="stylesheet" href="/assets/tailwind.e5528e18.css">
+  <script type="module" crossorigin src="/assets/sellerdashboard1.302f4dcc.js"></script>
+    <link rel="modulepreload" href="/assets/tailwind.0286bc0b.js">
+    <link rel="stylesheet" href="/assets/tailwind.3391dbab.css">
   </head>
 
 <body>
@@ -40,9 +40,13 @@
       <div class="lg:w-3/4 mx-auto   mt-32">
          <p class="text-5xl text-gray-900">Events</p>
 
-         <table class="w-full mt-10 overflow-x-scroll table-auto" style="min-width: 600px;">
-            <thead class="bg-mute text-sm text-gray-800 h-10  text-left ">
-               <tr>
+         <table class="test w-full mt-10 overflow-x-scroll table-auto" style="display: block;
+    overflow-x: auto;
+    white-space: nowrap;">
+
+            <tbody class="font-light border-spacing-4   font-gray-800 text-sm" style=" display: table;
+    width: 100%;">
+               <tr class="bg-mute text-sm text-gray-800 h-10  text-left ">
                   <th class="pl-3">Event</th>
                   <th></th>
                   <th>Sold</th>
@@ -50,8 +54,7 @@
                   <th>Status</th>
                   <th></th>
                </tr>
-            </thead>
-            <tbody class="font-light border-spacing-4   font-gray-800 text-sm">
+
                <tr class=" border-b  ">
                   <td class="pl-3 py-3">
                      <p class=" font-normal">Nov, 12 2021</p>
@@ -119,17 +122,17 @@
             </tbody>
          </table>
 
-         <div class=" flex items-center my-6 px-2 w-full">
-            <div class="flex-none">
+         <div class=" flex   flex-col sm:flex-row  space-y-5 items-center my-6 px-2 w-full">
+            <div class="sm:flex-none flex-initial mx-auto">
                <p class=" text-sm text-gray-800 font-light">
                   Showing page 1 of 2
                </p>
             </div>
-            <div class="flex-grow text-center">
+            <div class="sm:flex-grow text-center flex-initial mx-auto">
                Pagination
             </div>
-            <div class="flex-none">
-               <div class="flex space-x-3 items-center">
+            <div class="sm:flex-none flex-initial mx-auto">
+               <div class="flex space-x-3 items-center ">
                   <p class=" text-sm text-gray-800 font-light">
                      Page no:
                   </p>

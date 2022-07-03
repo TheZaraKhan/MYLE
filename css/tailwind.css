@@ -460,3 +460,11 @@ div.floating-element + div + img {
     padding: 4px;
   }
 }
+
+table.test td {
+  @apply p-5;
+}
+
+table.test th {
+  @apply px-5 py-2;
+}

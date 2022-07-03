@@ -45,14 +45,18 @@ module.exports = {
           __dirname,
           "pages/seller-dashboard1/index.html"
         ),
-        // sellerdashboard2: resolve(
-        //   __dirname,
-        //   "pages/seller-dashboard2/index.html"
-        // ),
-        // sellerdashboard3: resolve(
-        //   __dirname,
-        //   "pages/seller-dashboard3/index.html"
-        // ),
+        sellerdashboard2: resolve(
+          __dirname,
+          "pages/seller-dashboard2/index.html"
+        ),
+        sellerdashboard3: resolve(
+          __dirname,
+          "pages/seller-dashboard3/index.html"
+        ),
+        sellerdashboard3: resolve(
+          __dirname,
+          "pages/seller-dashboard4/index.html"
+        ),
       },
     },
   },
