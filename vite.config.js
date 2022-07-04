@@ -53,7 +53,7 @@ module.exports = {
           __dirname,
           "pages/seller-dashboard3/index.html"
         ),
-        sellerdashboard3: resolve(
+        sellerdashboard4: resolve(
           __dirname,
           "pages/seller-dashboard4/index.html"
         ),
